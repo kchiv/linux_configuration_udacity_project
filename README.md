@@ -43,6 +43,10 @@ sudo apt-get upgrade
 ## Configurations
 
 - Created 'grader' user and granted user 'sudo' permissions
-- Configured ssh login to use a public key and private key
 - Changed ssh port to 2200 from 22
 - Configured UFW to onlly allow connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)
+- Configured ssh login to use a public key and private key
+- Updated all system packages to their most recent versions
+- Installed apache2 and mod_wsgi in order to host the Python app
+- Installed postgresql and created a database called 'catalog'
+  - Python scripts
