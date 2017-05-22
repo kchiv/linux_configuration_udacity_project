@@ -28,3 +28,14 @@ sudo apt-get upgrade
 - mod_wsgi to host the Python web app
 - Postgresql database
 - Git for downloading the item catalog repository
+- Pip for managing Python packages
+- Flask framework for our app
+
+### Additional Python Libraries
+
+- httplib2
+- requests
+- flask-seasurf
+- oauth2client
+- sqlalchemy
+- psycopg2
