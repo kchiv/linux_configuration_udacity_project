@@ -5,4 +5,5 @@ The final Udacity project. In this project I configured an Ubuntu Linux server s
 ## Server Details
 
 **IP Address:** 52.206.36.27
+
 **App URL:** http://ec2-52-206-36-27.compute-1.amazonaws.com/
