@@ -39,3 +39,5 @@ sudo apt-get upgrade
 - oauth2client
 - sqlalchemy
 - psycopg2
+
+## Configurations
