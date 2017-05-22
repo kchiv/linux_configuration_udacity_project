@@ -12,6 +12,8 @@ The final Udacity project. In this project I configured an Ubuntu Linux server s
 
 ## Software Summary
 
+### Updated & Installed Packages
+
 Updated the list of available packages:
 ```
 sudo apt-get update
@@ -20,3 +22,9 @@ Install the new packages:
 ```
 sudo apt-get upgrade
 ```
+### Other Software
+
+- Apache 2 webserver
+- mod_wsgi to host the Python web app
+- Postgresql database
+- Git for downloading the item catalog repository
