@@ -13,6 +13,10 @@ The final Udacity project. In this project I configured an Ubuntu Linux server s
 ## Software Summary
 
 Updated the list of available packages:
-'''sudo apt-get update'''
+'''
+sudo apt-get update
+'''
 Install the new packages:
-'''sudo apt-get upgrade'''
+'''
+sudo apt-get upgrade
+'''
