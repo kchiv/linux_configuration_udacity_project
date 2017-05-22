@@ -75,8 +75,8 @@ sudo apt-get upgrade
 - Created flaskapp.wsgi file to serve the Flask app
 
 ## Resources
-https://www.youtube.com/watch?v=HcwK8IWc-a8
-https://www.digitalocean.com/community/tutorials/how-to-configure-the-apache-web-server-on-an-ubuntu-or-debian-vps
-https://www.cyberciti.biz/faq/how-do-i-update-ubuntu-linux-softwares/
-http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/
-https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+- https://www.youtube.com/watch?v=HcwK8IWc-a8
+- https://www.digitalocean.com/community/tutorials/how-to-configure-the-apache-web-server-on-an-ubuntu-or-debian-vps
+- https://www.cyberciti.biz/faq/how-do-i-update-ubuntu-linux-softwares/
+- http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/
+- https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
