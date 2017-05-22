@@ -41,3 +41,8 @@ sudo apt-get upgrade
 - psycopg2
 
 ## Configurations
+
+- Created 'grader' user and granted user 'sudo' permissions
+- Configured ssh login to use a public key and private key
+- Changed ssh port to 2200 from 22
+- Configured UFW to onlly allow connections for SSH (port 2200), HTTP (port 80), and NTP (port 123)
