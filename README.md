@@ -1,2 +1,8 @@
 # linux_configuration_udacity_project
-The final Udacity project. This purpose of this project is to configure a Linux server.
+
+The final Udacity project. In this project I configured an Ubuntu Linux server so that it hosts a web application that utilizes the Flask framework.
+
+## Server Details
+
+**IP Address:** 52.206.36.27
+**App URL:** http://ec2-52-206-36-27.compute-1.amazonaws.com/
