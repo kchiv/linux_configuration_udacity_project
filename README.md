@@ -49,4 +49,26 @@ sudo apt-get upgrade
 - Updated all system packages to their most recent versions
 - Installed apache2 and mod_wsgi in order to host the Python app
 - Installed postgresql and created a database called 'catalog'
-  - Python scripts
+  - Python scripts were later run to create tables and populate the tables with data
+- Installed git and then cloned the item catalog repository onto the server
+- Configured the virtual host with the FlaskApp.conf file containing the following code:
+```
+<VirtualHost *:80>
+        ServerName 52.206.36.27
+        ServerAdmin chiverskyle@gmail.com
+        ServerAlias ec2-52-206-36-27.compute-1.amazonaws.com
+        WSGIScriptAlias / /var/www/FlaskApp/flaskapp.wsgi
+        <Directory /var/www/FlaskApp/FlaskApp/>
+                Order allow,deny
+                Allow from all
+        </Directory>
+        Alias /static /var/www/FlaskApp/FlaskApp/static
+        <Directory /var/www/FlaskApp/FlaskApp/static/>
+                Order allow,deny
+                Allow from all
+        </Directory>
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        LogLevel warn
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+```
